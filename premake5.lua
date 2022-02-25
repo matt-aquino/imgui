@@ -20,11 +20,6 @@ project "ImGui"
 		"imgui_tables.cpp",
 	}
 	
-	includedirs
-	{
-		"backends"
-	}
-	
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"
